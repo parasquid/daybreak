@@ -47,6 +47,5 @@ group :development do
   gem 'spring'
 end
 
-gem 'rest-client'
 gem 'jabujabu', path: 'vendor/jabujabu'
 gem 'config'

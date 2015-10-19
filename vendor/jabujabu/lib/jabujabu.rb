@@ -1,12 +1,17 @@
 require "jabujabu/version"
-require 'configurations'
+
+require "configurations"
+require "virtus"
+require "httparty"
+
+require "jabujabu/aqua/client"
+require "jabujabu/aqua/request"
 
 module Jabujabu
   include ::Configurations
-  config_options = [:username, :password]
-  configurable config_options
+  configurable :username, :password
 
-  not_configured config_options do |prop| # omit the arguments to get a catch-all not_configured
+  not_configured :username, :password do |prop| # omit the arguments to get a catch-all not_configured
     warn :not_configured, "Please configure #{prop} or live in danger: youtube.com/watch?v=yZ15vCGuvH0"
   end
 end

@@ -1,7 +1,8 @@
 require "jabujabu/version"
+require 'configurations'
 
 module Jabujabu
-  include Configurations
+  include ::Configurations
   config_options = [:username, :password]
   configurable config_options
 

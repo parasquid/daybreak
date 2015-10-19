@@ -49,3 +49,4 @@ end
 
 gem 'rest-client'
 gem 'jabujabu', path: 'vendor/jabujabu'
+gem 'config'

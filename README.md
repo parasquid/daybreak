@@ -11,7 +11,7 @@ From a South and West Slavic word meaning "dawn, aurora".
 > "the rose-pink light of dawn"
 > synonyms:	daybreak, sunrise, first light, daylight; More
 
-`Daybreak` is a small app to play around with the Zora Aggregate Query API (AQUa)
+`Daybreak` is a small app to play around with the Zora Aggregate Query API (AQuA)
 
 ## Settings and Configuration
 

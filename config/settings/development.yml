@@ -1,0 +1,8 @@
+zuora:
+  api_endpoints:
+    production:
+      username: production_user_name
+      password: production_password
+    sandbox:
+      username: sandbox_user_name
+      password: sandbox_password

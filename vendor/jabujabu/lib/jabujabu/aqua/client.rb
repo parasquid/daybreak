@@ -12,7 +12,8 @@ module Jabujabu
       def batch_query(request)
         HTTParty.post(@endpoint,
           basic_auth: @auth,
-          body: request.to_json
+          body: request.to_json,
+          headers: {'Content-Type' => 'application/json'}
         )
       end
     end
